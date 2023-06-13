@@ -1,0 +1,56 @@
+html, body, .container, #question-container, #content-container, .option-btn, #start-btn, #retry-btn {
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABj5JREFUWEe1l3tQVFUcx7/n3r13V9d98Ihc0BAdWmQkBRZRB1NZtBnEXgYGqKWW5msmZ7Ia0/GVNZM2NalNY874ZFEZ7WFW6rKSlpIs5INMDVFBB+Uhq8tzd+85zd0CRXYRlc6f5/wen3t+r3MJACRlnQlQwbWEEaSCoTcBq2Ugv0mU21mwK84uy/xfi6Sk23VMYCfDw3o9PTE5GH16K1DncKGk1InTfzlBGTvAGD/fZom7+n9AEHOWfVWgji7b/MlQaPuIHXxcrmzG+q0VOHu+oZ4y8ootN97W0xAkJdteaB5BE9+bbwIhpJN9iTJ8nXsNe3+sdjHG0vJzEw73JIQXYFyCJ3Hea0bo9Xq/tjdsq8B3h6vvUHCvg9FnOAI9ZbhEmCrPzZpFkSfjGUNfQnDDA+lQQc6Ia90BJSmZ9vfVavbxgiweY5KGQBAEn3ryTSz+6KIcDkQO6I0AnYC/yhpwp9HTQkBElZLjdBoFmlokOBskyhi2SyK/qGBrrKMrEBIfbxf0RuzX9WHPzU4XMO7ZwRDFjrnQZqDmlgtr1pfh06VG8DyPVhfF7h9u4NSf9Vi7JBo8/28ISy824KudlThf3njBRci4YztNVf4gvBrR6XvEUHHgDqXIMma+RJAyJhJardanTsGJW+glOpEYH95+vmPfNaSOVSMoMKB9z+2hWLquDMVn75x0XCBJxcUmty+D92TdCi45K22DUmBzp6V5MHpEP4SFhflMzIJfz2NsUlS7vYZGD2prazAg3ODdo5SCMQZnI8Wsd8/B4fQstllM6x4A4D0myVn2jb2UbO6MF9wwDtIgMjISSqWyg67T6YRGo+mwV+uohyAooFNr4Pa4UeOoR2hwCL49VI0N2yprm9yup07kjWq+H6Jz3QFyb9ihVbPsOekuBOoFGI1GvyFpMyg7dTQ48YQ+sP0WOI5DSyvFlAVn0NQsZVtzTJbuAHhzwiBEFIQb2MgZL7qhUHCIjo5+IIS/RFu76QoO/lL3bb7F9FK3AGSh5OmnwojkKZ0w0qNPipWgUCgQGxvrt0y7KrVffr+FD78ov211Xw5CXoZ0r6yvECAxu1Dbm4qxBHSeXBkLM13QaQCDwYCIiIju9JcOMvW33ciYfwbUg3jbblOJX4DRU+0GgWIdIUjnOQiBOgEqJYeoAW6Mjmv2Jl5MTMxDA8gK0xadRVV1y5x8y/BNPgEmTDsdIlFXsTFC3W/65FDERmsgily7bFNTkzcM/prUg6iWfVqGwj8cn1tzEhb5BEjJsq8d0F/1zsbVgyEKdx0/yHB3z7/YUoH91po8q8WU4Rsgu8ia+Xxf88yMft21+VByX+6oxL6fqztVQnsSmrOLdo0appyyfJHc0/mHMt6VsNwHDh+rxU8FNbh4udkDQlbn55hWtem0AyRnFmWqRFg+mKvG8PhIb7x7Yl2raoFOQ+BqbcAB6xXkHGCgjKRZd5oOeFvvXSfyLJh4KFgH86zJBHFDwxEUFORzFjwqWGVlJT7fUoXTF/icfItp6n0AQGL231oNc+SKIlLHmiSMHS4iLOxJL8j98+BRICoqKrAp9wYKz/Lf5OeYXu4E8J9RYs46+SbArdGoWfDIZyTEDpYQqFdCrVZDpVJ5wyP3+bbV3CKhyaWBcZDWbwXJE7KkpASfbWeoriMrrZaEFf4AvHYnTDut9kjuuYRgoYJjTw3qTxE9iGJgPwpdn7vf3+oGyquexMwpA/2GSx7Nly5dwr6DdTh0XNHA3IooW96w610CtLtI38MniwPNhLIp4EgaAUL0GgZDMEVIIMOdRoK334hCaF/fDxhJklBeXo6DR+vw/REF84BMPXLPVPQ5C/zHdwVnzpw0BKAjCSHDAJgNITRy46qoTu8D2YbD4UBZWTl+OubG0WJeopS8Zcs1bfbZiB4lqczZRfNDAtiG5Qu03oeLnBfyF8uOb968ifKrDnx3RMCV61y9BDb1iCXhx/v9POQNdFQf/2qJCbxUNPsVN/obOO+obm1thcPJcPwUj6JSHh6J2Bi4mf7+rB4LQMZJySraphQxPeZpil5KhuvVHK5cJ6AMpUzCyvxdCXsBMH83/NgAwAouOTP1NcJxk8CYBiDnGLi9Nkvcsa4cd2rFj5IDPaHTAzfweBj/AB7Haj8VFfFSAAAAAElFTkSuQmCC) 1 2, auto !important;
+}
+
+/* .container2 {
+  background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
+  width: 1000px;
+  height: 1000px;
+  padding: 500px;
+} */
+
+
+.container {
+  background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  width: 500px;
+  height: 500px;
+  padding: 200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  /* background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
+  background-repeat: no-repeat; */
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#question-container {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.option-btn, #start-btn, #retry-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#retry-btn {
+  display: none;
+}
