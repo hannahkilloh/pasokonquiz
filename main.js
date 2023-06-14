@@ -1,4 +1,3 @@
-// Define an array of quiz questions and answers
 const quiz = [
   {
     question: "What is the capital of France?",
@@ -12,14 +11,16 @@ const quiz = [
   },
   {
     question: "Which country is home to the kangaroo?",
-    options: ["a) Australia", "b) Canada", "c) Brazil", "d) China"],
+    options: ["a) They come from the land down-under", "b) Canada", "c) Brazil", "d) China"],
     answer: "a"
   }
 ];
 
 // Get HTML elements
-const questionContainer = document.getElementById("question-container");
+// const questionContainer = document.getElementById("question-container");
 const contentContainer = document.getElementById("content-container");
+const buttonContainer = document.getElementById("button-container");
+const textContainer = document.getElementById("text-container");
 const startBtn = document.getElementById("start-btn");
 const retryBtn = document.getElementById("retry-btn");
 
@@ -34,16 +35,26 @@ function startQuiz() {
 // Function to display a question
 function displayQuestion() {
   questionDict = quiz[currentQuestion];
-  questionContainer.textContent = questionDict.question;
-  contentContainer.innerHTML = "";
+  textContainer.innerHTML = "";
+  buttonContainer.innerHTML = "";
+
+  question = document.createElement("p");
+  question.innerText = questionDict.question;
+  textContainer.appendChild(question);
+
+  for (let i = 0; i < questionDict.options.length; i++) {
+    option = document.createElement("p");
+    option.innerText = questionDict.options[i];
+    textContainer.appendChild(option);
+  }
 
   for (let i = 0; i < questionDict.options.length; i++) {
     option = document.createElement("button");
-    option.textContent = questionDict.options[i];
+    option.textContent = questionDict.options[i].charAt(0);
     option.classList.add("option-btn");
     option.dataset.question = questionDict.options[i].charAt(0);
     option.addEventListener("click", handleOptionClick);
-    contentContainer.appendChild(option);
+    buttonContainer.appendChild(option);
   }
 }
 
@@ -65,16 +76,16 @@ function handleOptionClick(event) {
 
 // Function to display quiz results
 function displayResults() {
-  questionContainer.textContent = "";
-  contentContainer.textContent = `Your score is ${score} out of ${quiz.length}`;
+  buttonContainer.innerHTML = "";
+  textContainer.innerHTML = `Your score is ${score} out of ${quiz.length}`;
 
   // Display different responses based on the score
   if (score === quiz.length) {
-    contentContainer.textContent += "\nCongratulations! You got a perfect score!";
+    textContainer.textContent += "\nCongratulations! You got a perfect score!";
   } else if (score >= quiz.length * 0.65) {
-    contentContainer.textContent += "\nGreat job! You did well!";
+    textContainer.textContent += "\nGreat job! You did well!";
   } else {
-    contentContainer.textContent += "\nKeep practicing! You can improve!";
+    textContainer.textContent += "\nKeep practicing! You can improve!";
   }
 
   retryBtn.style.display = "inline-block";
@@ -84,5 +95,5 @@ function displayResults() {
 function resetQuiz() {
   retryBtn.style.display = "none";
   startBtn.style.display = "inline-block";
-  contentContainer.innerHTML = "";
+  textContainer.innerHTML = "";
 }
