@@ -4,6 +4,9 @@ html, body, .container, #question-container, #content-container, .option-btn, #s
 
 .container {
   background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
+  /* filter: hue-rotate(180deg); */
+  /* filter: brightness(90%); */
+  filter: saturate(2) hue-rotate(5deg);
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +28,9 @@ body {
 #text-container {
   padding-top: 140px;
   font-weight: bold;
+  color: white;
+  text-shadow: -0.75px -0.75px 0 #000, 0.75px -0.75px 0 #000, -0.75px 0.75px 0 #000, 0.75px 0.75px 0 #000;
+  letter-spacing: 0.50px;
 }
 
 #button-container {

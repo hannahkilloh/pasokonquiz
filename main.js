@@ -1,8 +1,8 @@
 const quiz = [
   {
-    question: "What is the capital of France?",
-    options: ["a) Paris", "b) London", "c) Berlin", "d) Rome"],
-    answer: "a"
+    question: "Let's get this quiz started! Here's your first question: \n\nWho was the first computer programmer in the world?",
+    options: ["a) Alan Turing", "b) Ada Lovelace", "c) Charles Babbage", "d) Konrad Zuse"],
+    answer: "b"
   },
   {
     question: "What is the largest planet in our solar system?",
