@@ -6,7 +6,7 @@ html, body, .container, #question-container, #content-container, .option-btn, #s
   background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
   /* filter: hue-rotate(180deg); */
   /* filter: brightness(90%); */
-  filter: saturate(2) hue-rotate(5deg);
+  filter: saturate(2) hue-rotate(10deg);
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,15 +26,21 @@ body {
 }
 
 #text-container {
-  padding-top: 140px;
+  padding-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  align-items: auto;
   font-weight: bold;
-  color: white;
-  text-shadow: -0.75px -0.75px 0 #000, 0.75px -0.75px 0 #000, -0.75px 0.75px 0 #000, 0.75px 0.75px 0 #000;
-  letter-spacing: 0.50px;
+  color: whitesmoke;
+  /* text-shadow: -0.75px -0.75px 0 #000, 0.75px -0.75px 0 #000, -0.75px 0.75px 0 #000, 0.75px 0.75px 0 #000;
+  letter-spacing: 0.50px; */
 }
 
 #button-container {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: row;
   align-items: center;
   font-weight: bold;
