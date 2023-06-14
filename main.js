@@ -46,7 +46,7 @@ const quiz = [
   },
   {
     question: "Now...let's get quantum!\n\nHere's you last question: Quantum Computing is different from the computers we know now because its binary code can simultanously be a 0 and a 1 (i.e. multiple states) until it is processed/observed. Wacky right? What is the technical name for this phenomena?",
-    options: ["a) Dualposition", "b) Diptychpostion", "c) Superposition", "d) Megapostion"],
+    options: ["a) Dualposition", "b) Diptychpostion", "c) Superposition", "d) Multipostion"],
     answer: "c"
   }
 ];
