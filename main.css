@@ -6,7 +6,7 @@ html, body, .container, #question-container, #content-container, .option-btn, #s
   background-image: url('https://cdn.pixabay.com/photo/2013/07/12/17/22/monitor-152109_1280.png');
   /* filter: hue-rotate(180deg); */
   /* filter: brightness(90%); */
-  filter: saturate(2) hue-rotate(10deg);
+  filter: saturate(2.5) hue-rotate(-5deg);
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +21,7 @@ body {
   background-image: url('https://opengameart.org/sites/default/files/styles/medium/public/tilesetOpenGameBackground_1.png');
   /* background-repeat: no-repeat; */
   background-color: white;
-  font-family: monospace, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ body {
   max-width: 600px;
   align-items: auto;
   font-weight: bold;
-  color: whitesmoke;
+  color: black;
   /* text-shadow: -0.75px -0.75px 0 #000, 0.75px -0.75px 0 #000, -0.75px 0.75px 0 #000, 0.75px 0.75px 0 #000;
   letter-spacing: 0.50px; */
 }
