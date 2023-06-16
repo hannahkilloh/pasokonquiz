@@ -6,7 +6,7 @@ const quiz = [
     answer: "b"
   },
   {
-    question: "If you guessed Ada Lovelace, well done! Women are underrepresented in coding which is strange because women started it all! \n\nSpeaking of great woman programmers...In 1952, American computer scientist, Grace Hopper, developed a system that could convert plain English into computer code. What is the name of this coding language?",
+    question: "If you guessed Ada Lovelace, well done! Women are underrepresented in coding which is strange because it was a woman that started it all! \n\nSpeaking of great woman programmers...In 1952, American computer scientist, Grace Hopper, developed a system that could convert plain English into computer code. What is the name of this coding language?",
     options: ["a) Binary", "b) APL", "c) COBOL", "d) C"],
     answer: "c"
   },
