@@ -15,12 +15,12 @@ const quiz = [
     options: ["a) The Sneeker", "b) The Sweeper", "c) The Reaper", "d) The Creeper"],
     answer: "d"
   },
-	{
+  {
     question: "In 1975 Atari released its first home computer game console, but what was the name of the game that was pre-loaded onto its system?",
     options: ["a) Snake", "b) Pong", "c) Tennis", "d) Tetris"],
     answer: "b"
   },
-	{
+  {
     question: "What was the first 3D character platformer action game released for the Playstation 1 in 1996?",
     options: ["a) Tomb Raider", "b) Banjo-Kazooie", "c) Crash Bandicoot", "d) Spyro"],
     answer: "c"
@@ -35,7 +35,7 @@ const quiz = [
     options: ["a) Playstation 2", "b) Nintendo 64", "c) Playstation 4", "d) Xbox 360"],
     answer: "a"
   },
-	{
+  {
     question: "I know! The Playstation 2? Who knew! Well...maybe you did.\n\nNow let's head up through the stratosphere and into orbit. What was the first video game console played in space?",
     options: ["a) SEGA Megadrive", "b) Atari", "c) NES", "d) GameBoy"],
     answer: "d"
@@ -118,7 +118,7 @@ function handleOptionClick(event) {
 }
 
 // Function to display quiz results
-function displayResults() { 
+function displayResults() {
   buttonContainer.innerHTML = ""; // Clears contents of the 'buttonContainer' element. Removes any buttons/options that were previsouly displayed
   textContainer.innerHTML = `Your score is ${score} out of ${quiz.length}`; // Sets the inner HTML of the 'textContainer' element to display the user's score.
   console.log(`Your score is ${score} out of ${quiz.length}`); // Outputs the same information to the console. This isn't technically necessary here but I've included it to meet the question console.log() requirements.
@@ -128,7 +128,7 @@ function displayResults() {
     textContainer.textContent += "\nCongratulations! Perfect score! You're a genius!";
     console.log("\nCongratulations! Perfect score! You're a genius!"); // Same console display for 10/10 congrats message
   } else if (score >= quiz.length * 0.65) { // If the score is greater than or equal to 65% of the length of the quiz array, it will display a specific message
-    textContainer.textContent += "\nGreat job! You're Ace!"; 
+    textContainer.textContent += "\nGreat job! You're Ace!";
     console.log("\nGreat job! You're Ace!");// Same console display for 65% or more score
   } else {
     textContainer.textContent += "\nKeep practicing! You got this!"; // If the score doesn't meet any of the previous requirements it will display this message
