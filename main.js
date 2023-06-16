@@ -6,7 +6,7 @@ const quiz = [
     answer: "b"
   },
   {
-    question: "If you guessed Ada Lovelace, well done! In 1842 Ada Lovelace translated Babbage's Analytical Engine from English to French.\n\nQuestion 2: In 1952, American computer scientist, Grace Hopper, developed a system that could convert plain English into computer code. What is the name of this coding language?",
+    question: "If you guessed Ada Lovelace, well done! Women are underrepresented in coding which is strange because women started it all! \n\nSpeaking of great woman programmers...In 1952, American computer scientist, Grace Hopper, developed a system that could convert plain English into computer code. What is the name of this coding language?",
     options: ["a) Binary", "b) APL", "c) COBOL", "d) C"],
     answer: "c"
   },
@@ -31,13 +31,13 @@ const quiz = [
     answer: "a"
   },
   {
-    question: "Did you guess Naughty Dog, no? Yes? Idk, I'm a JavaScript Program.\n\nAnyway, next question! Sticking with gaming, what is the best-selling gaming console of all time?",
+    question: "Did you guess Naughty Dog, no? Yes? Idk, I'm just a JavaScript Program.\n\nAnyway, next question! Sticking with gaming, what is the best-selling gaming console of all time?",
     options: ["a) Playstation 2", "b) Nintendo 64", "c) Playstation 4", "d) Xbox 360"],
     answer: "a"
   },
 	{
-    question: "I know! The Playstation 2? Who knew!\n\nNow let's head up through the stratosphere and into orbit. What was the first video game console played in space?",
-    options: ["a) SEGA Megadrive", "b) GameBoy Colour", "c) NES", "d) GameBoy"],
+    question: "I know! The Playstation 2? Who knew! Well...maybe you did.\n\nNow let's head up through the stratosphere and into orbit. What was the first video game console played in space?",
+    options: ["a) SEGA Megadrive", "b) Atari", "c) NES", "d) GameBoy"],
     answer: "d"
   },
   {
@@ -46,7 +46,7 @@ const quiz = [
     answer: "b"
   },
   {
-    question: "Now...let's get quantum!\n\nHere's you last question: Quantum Computing is different from the computers we know now because its binary code can simultanously be a 0 and a 1 (i.e. multiple states) until it is processed/observed. Wacky right? What is the technical name for this phenomena?",
+    question: "Now, let's get quantum!\n\nHere's your last question: Quantum Computing distinguishes itself from conventional computers by allowing its binary code to exist simultaneously as both 0 and 1, representing multiple states until it is processed or observed. Wacky right? What is the technical name for this phenomenon?",
     options: ["a) Dualposition", "b) Diptychpostion", "c) Superposition", "d) Multipostion"],
     answer: "c"
   }
