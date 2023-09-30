@@ -1,4 +1,7 @@
 # pasokonquiz
+
+![Screenshot 2023-09-30 at 01 58 52](https://github.com/hannahkilloh/pasokonquiz/assets/128159869/0cba10eb-f4ac-4777-91e5-137c0e463604)
+
 Gaming quiz built using JS, HTML &amp; CSS
 
 Welcome to the Pasokon (パソコン) Computing/Gaming Quiz! 
